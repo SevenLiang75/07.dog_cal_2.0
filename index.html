@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="all.js" defer></script>
+</head>
+<body>
+
+  <div class="avatar-container">
+  <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=400&q=80"
+       alt="魔法犬" class="avatar">
+</div>
+  
+<h1>犬齡換算煉成陣</h1>
+<h2>- 麻瓜校長的妙麗犬 -</h2>
+
+<div class="wrapper">
+  <div class="leftBox">
+    <label>🐶魔法犬出生日期：</label>
+    <input type="date" id="birthday">
+
+    <div class="btn-block">
+      <button id="saveBtn" onclick="saveBtn()">吟唱計算魔法</button>
+      <button class="clear" onclick="clearAll()">淨化魔陣</button>
+      <button onclick="toggleSource()">閱覽卷軸</button>
+    </div>
+      
+    <div id="result"></div>
+  </div>
+
+  <div id="sourceBox" class="sourceBox">
+    <strong>【魔法界犬齡換算卷軸抄錄】</strong><br><br>
+    依照巫師獸醫學院與麻瓜研究室共同整理，犬隻的成熟速度在生命前兩年加速，故換算如下：<br><br>
+    ● 第 1 犬年 ≈ 麻瓜 15 歲<br>
+    ● 第 2 犬年 ≈ 約再增加 9 歲，麻瓜 24 歲<br>
+    ● 第 3 年起每年增加約 4~5 歲<br><br>
+    此換算咒語常見於麻瓜期刊《Science Advances》與多項獸醫學文獻， 被霍格華茲魔法動物照護課視為標準參考。
+  </div>
+</div>
+</body>
+</html>

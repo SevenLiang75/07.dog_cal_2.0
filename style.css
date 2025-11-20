@@ -1,0 +1,128 @@
+body {
+    font-family: "Times New Roman", serif;
+    background: #0d1b2a url('https://images.unsplash.com/photo-1528819622765-d6bcf132f793?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+    background-size: cover;
+    color: #f0e6d2;
+    padding: 40px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #c9a227;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 0 0 2px blue;
+    margin-top: 0px;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+  }
+
+  .leftBox {
+    width: 420px;
+    background: rgba(20, 33, 61, 0.75);
+    border: 2px solid #c9a227;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 0 20px #000;
+  }
+
+  label {
+    font-size: 1.1rem;
+  }
+
+  input[type="date"] {
+    width: 50%;
+    padding: 10px;
+    margin: 12px 0;
+    background: rgba(255, 244, 214, 0.88);
+    border: 1px solid #c9a227;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-shadow: inset 0 0 5px #c9a227;
+  }
+
+  button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: none;
+    background: #c9a227;
+    color: #1b263b;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 0 8px #c9a227;
+    transition: 0.2s ease;
+  }
+
+  button:hover {
+    background: #e6c66b;
+    box-shadow: 0 0 15px #ffd56b;
+  }
+
+  button.clear{
+    background: #d2693e;
+    color: #ffd56b;
+    box-shadow: 0 0 8px #d2693e;
+  }
+  
+  button.clear:hover {
+    background:#e07a55;
+    box-shadow: 0 0 15px #f6a078;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    background: rgba(10, 20, 40, 0.6);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #c9a227;
+  }
+
+  .sourceBox {
+    width: 350px;
+    display: none;
+    background: rgba(10, 20, 40, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #c9a227;
+    height: fit-content;
+    align-self: start;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    box-shadow: 0 0 15px #000;
+  }
+
+  .btn-block{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+  }
+
+.avatar-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+  border: 4px solid #fff; /* 可自行調整 */
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
